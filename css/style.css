@@ -83,7 +83,7 @@ i.fa {
 
 .logo {
     font-size: 236px;
-    font-family: "canter outline";
+    font-family: "Canter-Outline";
     color: white;
     letter-spacing: 0px;
     transform: skewY(-12deg);
@@ -91,7 +91,7 @@ i.fa {
 
 .logo-subtitle {
     font-size: 122px;
-    font-family: canter;
+    font-family: "Canter-Bold";
     transform: skewY(-12deg);
     text-align: center;
     font-weight: bold;
