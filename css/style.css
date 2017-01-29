@@ -53,7 +53,7 @@ i.fa {
 }
 
 .top-line-second i {
-	font-family: "open sans";
+	font-family: "Open Sans";
 	font-size: 18px;
     text-transform: uppercase;
     margin-top: -2px;
@@ -111,6 +111,7 @@ i.fa {
 .header {
 	min-height: 730px;
 	background-image: url("../img/hero.jpg"); 
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,6 +121,7 @@ i.fa {
 .menu {
 	position: absolute;
 	bottom: 0;
+    left: 0;
 	width: 100%;
 	background-color: rgba(0,0,0,0.5);
 }
@@ -135,7 +137,7 @@ i.fa {
     display: inline-block;
     color: white;
     text-decoration:  none;
-    font-family: "open sans";
+    font-family: "Open Sans";
     letter-spacing: 1px;
     font-size: 16px;
     font-weight: 600;
@@ -184,7 +186,7 @@ i.fa {
 
 .products p {
 	text-transform: uppercase;
-    font-family: "open sans";
+    font-family: "Open Sans";
     font-weight: 800;
     font-size: 14px;
     margin-top: 8px;
@@ -205,7 +207,7 @@ i.fa {
 }
 
 .lorem-one, .lorem-two, .lorem-three, .circle-text, .lorem-four {
-	font-family: "open sans";
+	font-family: "Open Sans";
     font-size: 15px;
     line-height: 23px;
     color: #262625;
@@ -233,6 +235,7 @@ i.fa {
 .circle {
     width: 428px;
     height: 428px;
+    display: -webkit-flex;
     display: flex;
 	flex: 1;
 	position: absolute;
@@ -243,7 +246,8 @@ i.fa {
 
 .circle-white {
 	background-color: white;
-	display: flex;
+	display: -webkit-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid transparent;
@@ -312,7 +316,7 @@ i.fa {
 }
 
 .circle-title {
-	font-family: "open sans";
+	font-family: "Open Sans";
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #7f3960;
@@ -321,7 +325,7 @@ i.fa {
 }
 
 .circle-subtitle {
-	font-family: "open sans";
+	font-family: "Open Sans";
 	color: #7f3960;
     font-weight: 400;
     font-size: 15px;
@@ -356,7 +360,7 @@ i.fa {
 
 .mail {
     text-transform: uppercase;
-    font-family: "open sans";
+    font-family: "Open Sans";
     font-weight: bold;
     font-size: 15px;
     margin-top: 8px;
